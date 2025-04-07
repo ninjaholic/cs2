@@ -3,5 +3,5 @@
 :: Requires ImageMagick to function -- https://imagemagick.org
 ::
 @echo off
-for %%a in (%*) do magick %%a -crop 960x543+481+269 %%a
+for %%a in (%*) do magick %%a -crop 958x541+481+269 %%a
 exit
